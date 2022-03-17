@@ -93,9 +93,9 @@ header {
 }
 
 #welcome-section #container-def #icon-section {
-  margin-top: 10px;
   width: 20%;
   justify-content: flex-start;
+  margin-top: 10px;
 }
 
 #welcome-section #container-def #icon-section ul {
