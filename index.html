@@ -1,53 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="Style.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"/>
-        <title>Setup & Mobile Portfolio Skeleton</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./Style.css" />
+    <link rel="stylesheet" href="./app.css">
+    <title>Setup Portfolio Mobile Version</title>
 </head>
 <body>
     <main id="root">
     <header>
         <nav class="navbar">
-            <a href="#" target="_blank">My Logo</a>
-            <img class="hamburger" src="images/Union.png" alt="">
-            </nav>
-        </header>
-        <section id="welcome-section">
-            <div id="container-def">
-            <h1>I'm Emmanuel <br />
-                Glad to see you!</h1>
-                <p>I’m a software developer! I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-                <h2>LET'S CONNECT</h2>
-                <div id="icon-section">
-                    <ul>
+            <div id="logo">
+                <a href="#index"><img src="./images/Logo.jpg" alt="logo" /></a>
+            </div>
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <ul class="nav-items">
+                <li class="portfolio item"><a href="#works-container" class="link">Portfolio</a></li>
+                <li class="about item"><a href="#about-container" class="link">About</a></li>
+                <li class="contact item"><a href="#contact-container" class="link">Contact</a></li>
+                <li class="closeMenu"><i class="fa fa-times"></i></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="index">
+        <div id="container-def">
+            <h1>
+                I'm Emmanuel <br />
+                Glad to see you!
+            </h1>
+            <p>
+                I’m a software developer! I can help you build a product, feature
+                or website Look through some of my work and experience. If you like
+                what you see and have a project you need coded, don’t hesitate to
+                contact me.
+            </p>
+            <br />
+
+            <h2>LET'S CONNECT</h2>
+            <div id="icon-section">
+                <ul>
+                    <li>
+                        <a href="https://twitter.com/@emmapaul247" target="_blank" rel="noopener noreferrer"><img
+                                src="./images/twitter.svg" alt="twitter icon" /></a>
+                    </li>
+                    <li>
+                        <a href="https://www.www.linkedin.com/in/emmanuel-paul-a2bab7b4" target="_blank"
+                            rel="noopener noreferrer"><img src="./images/Linkedin.svg" alt="Linkedin icon" /></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/medium.svg"
+                                alt="Medium icon" /></a>
+                    </li>
+                    <li>
+                        <a href="https://epaltechs.github.io/Setup-Portfolio" target="_blank" rel="noopener noreferrer"><img
+                                src="./images/github.svg" alt="Github icon" /></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/angellist.svg"
+                                alt="Angellist icon" /></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>   
+     <div class="winUp hidden" id="popup">
+            <div class="container windowPopup popup">
+                <div class="pop-header">
+                    <h4 class="h-4">Tonic</h4>
+                    <span class="closePopup"><i class="fa fa-times"></i></span>
+                    <ul class="pop-description-element">
+                        <li class="element" id="companyID">CANOPY</li>
+                        <li class="element">
+                            <img class="bullet" src="./images/bullet.png" alt="bullet" />
+                        </li>
+                        <li class="element" id="workType">Back End Dev</li>
+                        <li class="element">
+                            <img class="bullet" src="./images/bullet.png" alt="bullet" />
+                        </li>
+                        <li class="element" id="date">2015</li>
+                    </ul>
+                </div>
+                <img class="work-pic" src="./images/desktop-images/img1.png" alt="landing page view" />
+                <img class="work-pic pop-img" src="./images/Portoflio_Card/work.png" alt="nature image" />
+                <div class="pop-element">
+                    <p class="description-text descriptionTxt">
+                    </p>
+                    <div class="pop-items">
+                        <ul class="languages">
+
+                            <li class="lang">html</li>
+
+                            <li class="lang1">css</li>
+
+                            <li class="lang2">javaScript</li>
+                        </ul>
+                        <div class="bottom-bar"></div>
+                        <div class="navigation-links">
+                            <form action="https://github.com/Epaltechs/Setup-Portfolio" class="btnSource">
+                                <input class="btn" type="submit" value="See live" /><i
+                                    class="fab fas-external-link-alt"></i>
+                            </form>
+                            <form action="https://github.com/Epaltechs/Portfolio-Mobile" class="btnDemo">
+                                <input class="btn" type="submit" value="See Source"> <i class="fab fas-github"></i>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="works-container">
+            <div class="container">
+                <img class="work-pic" src="./images/Portoflio_Card/work.png" alt="nature image" />
+                <img class="work-pic" src="./images/desktop-images/img1.png" alt="landing page view" />
+                <div class="work-description">
+                    <h4>Tonic</h4>
+                    <ul class="description-element">
+                        <li>CANOPY</li>
+                        <li class="element">
+                            <img class="bullet" src="./images/bullet.png" alt="bullet" />
+                        </li>
+                        <li class="element">Back End Dev</li>
+                        <li class="element">
+                            <img class="bullet" src="./images/bullet.png" alt="bullet" />
+                        </li>
+                        <li class="element">2015</li>
+                    </ul>
+                    <p class="description-tex descriptionTxt">
+                        A daily selection of privately personalized reads; no accounts or
+                        sign-ups required.
+                    </p>
+                    <ul class="languages" id="languages-1">
+                        <li class="lang">html</li>
+                        <li class="lang1">css</li>
+                        <li class="lang2">javaScript</li>
+                    </ul>
+                    <button class="btn openPopup" id="firstBtn" type="submit">See Project</button>
+                </div>
+            </div>
+            <div class="container">
+                <img class="work-pic" src="./images/Portoflio_Card/work1.png" alt="multi-post stories image" />
+                <div class="work-description">
+                    <h4>Multi-Post Stories</h4>
+                    <ul class="description-element">
+                        <li>CANOPY</li>
+                        <li class="element">
+                            <img class="bullet" src="./images/bullet.png" alt="bullet" />
+                        </li>
+                        <li class="element">Back End Dev</li>
+                        <li class="element">
+                            <img class="bullet" src="./images/bullet.png" alt="bullet" />
+                        </li>
+                        <li class="element">2015</li>
+                    </ul>
+                    <p class="description-txt descriptionTxt">
+                        A daily selection of privately personalized reads; no accounts or
+                        sign-ups required.
+                    </p>
+                    <ul class="languages">
+                        <li class="lang">html</li>
+                        <li class="ruby">Ruby on rails</li>
+                        <li class="lang1">css</li>
+                        <li class="lang2">javaScript</li>
+                    </ul>
+                    <button class="btn openPopup" id="secondBtn" onclick="changeWindowPopup(2)" type="submit">See
+                        Project</button>
+                </div>
+                <img class="work-pic-1" src="./images/desktop-images/img2.png" alt="professional art printing image" />
+            </div>
+
+            <div class="container">
+                <img class="work-pic" src="./images/Portoflio_Card/work2.png" alt="facebook 360 image" />
+                <img class="work-pic" src="./images/desktop-images/img3.png" alt="landing view, desktop-image" />
+                <div class="work-description">
+                    <h4>Tonic</h4>
+                    <ul class="description-element">
+                        <li>CANOPY</li>
+                        <li class="element">
+                            <img class="bullet" src="./images/bullet.png" alt="bullet" />
+                        </li>
+                        <li class="element">Back End Dev</li>
+                        <li class="element">
+                            <img class="bullet" src="./images/bullet.png" alt="bullet" />
+                        </li>
+                        <li class="element">2015</li>
+                    </ul>
+                    <p class="description-text descriptionTxt">
+                        A daily selection of privately personalized reads; no accounts or
+                        sign-ups required.
+                    </p>
+                    <ul class="languages">
+                        <li class="lang">html</li>
+                        <li class="ruby">Ruby on rails</li>
+                        <li class="lang1">css</li>
+                        <li class="lang2">javaScript</li>
+                    </ul>
+                    <button class="btn openPopup" id="thirdBtn" type="submit">See Project</button>
+                </div>
+            </div>
+            <div class="container">
+                <img class="work-pic" src="./images/Portoflio_Card/work3.png" alt="professional art printing" />
+                <div class="work-description">
+                    <h4>Multi-Post Stories</h4>
+                    <ul class="description-element">
+                        <li>CANOPY</li>
+                        <li class="element">
+                            <img class="bullet" src="./images/bullet.png" alt="bullet" />
+                        </li>
+                        <li class="element">Back End Dev</li>
+                        <li class="element">
+                            <img class="bullet" src="./images/bullet.png" alt="bullet" />
+                        </li>
+                        <li class="element">2015</li>
+                    </ul>
+                    <p class="description-text">
+                        A daily selection of privately personalized reads; no accounts or
+                        sign-ups required.
+                    </p>
+                    <ul class="languages">
+                        <li class="lang">html</li>
+                        <li class="ruby">Ruby on rails</li>
+                        <li class="lang1">css</li>
+                        <li class="lang2">javaScript</li>
+                    </ul>
+                    <button class="btn openPopup" id="lastBtn" type="submit">See Project</button>
+                </div>
+                <img class="work-pic-1" src="./images/desktop-images/img4.png" alt="Availability image" />
+            </div>
+        </section>
+        <section id="about-container">
+            <div class="about-content-box">
+                <div id="about-inside-left-box">
+                    <h1 class="about-title">
+                        About <br />
+                        Myself
+                    </h1>
+                    <p class="about-description">
+                        Hello I’m a software developer! I can help you build a product,
+                        feature or website. Look through some of my work and experience! If
+                        you like what you see and have a project you need coded, don’t
+                        hestiate to contact me.
+                    </p>
+                    <h2 class="refer-link">LET'S CONNECT</h2>
+                    <ul class="icon-content-element">
                         <li>
-                            <a href="https://twitter.com/epaltechs" target="_blank" rel="noopener noreferrer"><img
-                                    src="./images/twitter.svg" alt="twitter icon" /></a>
+                            <a href="https://github.com/Epaltechs" target="_blank" rel="noopener noreferrer"><img
+                                    src="./images/github.svg" alt="github icon" /></a>
                         </li>
                         <li>
                             <a href="https://www.linkedin.com/in/emmanuel-paul-a2bab7b4/" target="_blank"
-                                rel="noopener noreferrer"><img src="./images/Linkedin.svg" alt="Linkedin icon" /></a>
+                                rel="noopener noreferrer"><img src="./images/Linkedin.svg" alt="LinkdIn icon" /></a>
+                        </li>
+                        <li>
+                            <a href="#" target="blank" rel="noopener noreferrer"><img src="./images/angellist.svg"
+                                    alt="Angellist icon" /></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/emmapaul247" target="_blank" rel="noopener noreferrer"><img
+                                    src="./images/twitter.svg" alt="twitter icon" /></a>
                         </li>
                         <li>
                             <a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/medium.svg"
                                     alt="Medium icon" /></a>
                         </li>
-                        <li>
-                            <a href="https://github.com/Epaltechs" target="_blank" rel="noopener noreferrer"><img
-                                    src="./images/github.svg" alt="Github icon" /></a>
+                    </ul>
+                    <button class="get-it-btn" type="submit">Get my resume</button>
+                </div>
+
+                <div id="languages-slider">
+                    <ul>
+                        <li id="languages-slider-1">
+                            Languages
+                            <img src="./images/Icons/arowB.png" alt="arrow bottom icon" />
                         </li>
-                        <li>
-                            <a href="#" target="_blank" rel="noopener noreferrer"><img src="./images/angellist.svg"
-                                    alt="Angellist icon" /></a>
+                    </ul>
+                    <ul id="box-languages-items">
+                        <li class="box-languages">
+                            <img class="icon-1" src="./images/javaScript.png" alt="JavaScript icon" />
+                            <p class="lg-1">JavaScript</p>
+                        </li>
+                        <li class="box-languages">
+                            <img class="icon-1" src="./images/html5.png" alt="HTML5 icon" />
+                            <p class="lg-1">HTML</p>
+                        </li>
+                        <li class="box-languages">
+                            <img class="icon-1" src="./images/css3.png" alt="CSS3 icon" />
+                            <p class="lg-1">CSS</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li id="languages-slider-2">
+                            Frameworks
+                            <img src="./images/Icons/arowR.png" alt="arrow bottom icon" />
+                        </li>
+                        <li id="languages-slider-3">
+                            Skills
+                            <img src="./images/Icons/arowR.png" alt="arrow bottom icon" />
                         </li>
                     </ul>
                 </div>
             </div>
         </section>
-    </main>
-</body>
+       </main>
+   </body>
 </html>
