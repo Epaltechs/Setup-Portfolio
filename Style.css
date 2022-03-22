@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,700&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -261,22 +260,18 @@ a {
     z-index: 10;
     backdrop-filter: blur(10px);
   }
-
   .navbar .nav-items .closeMenu {
     display: block;
     position: absolute;
     top: 20px;
     right: 30px;
   }
-
   .navbar .openMenu {
     display: block;
   }
-
   .nav-items li a:hover {
     color: #ccc;
   }
-
   .navbar .nav-items li a {
     display: inline-block;
     margin: 0 20px;
@@ -286,18 +281,15 @@ a {
     line-height: 34px;
     color: #fff;
   }
-
   .ruby {
     display: none;
   }
-
   #index #container-def h2 {
     color: #7f8cff;
     font-size: 18px;
     line-height: 24px;
     font-family: "Poppins", sans-serif;
   }
-  
   #works-container .container .work-description .description-element li:first-child {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -306,20 +298,16 @@ a {
     list-style: none;
     color: #344563;
   }
-  
   #index #container-def #icon-section ul li {
     list-style: none;
     display: flex;
   }
-  
   #works-container .container .work-pic:nth-child(2) {
     display: none;
   }
-
   .work-pic-1 {
     display: none;
   }
-
   #index {
     margin-bottom: 100px;
   }
@@ -499,14 +487,14 @@ a {
 }
 
 #description-contact-box {
-    width: 90%;
-    margin: auto;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
+  width: 90%;
+  margin: auto;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
 }
 
 #description-contact-box .contact-title-1 {
@@ -527,7 +515,7 @@ a {
   margin-bottom: 100px;
   user-select: none;
   cursor: pointer;
- }
+}
 
 #contact-container #input-contact-box {
   height: 400px;
@@ -599,26 +587,22 @@ a {
   margin: auto;
   align-self: center;
   position: relative;
-  }
+}
 
 @media screen and (min-width: 992px) {
   .navbar {
     padding: 0 210px;
   }
-
   .navbar ul li a {
     visibility: visible;
     color: #344563;
   }
-
   #logo {
     transition: transform 0.5s ease-out;
   }
-
   #logo:hover {
     transform: scale(1.1) rotate(360deg);
   }
-
   #index {
     background-image: url(./images/desktop-images/deskBackground-Home.png);
     margin-bottom: 230px;
@@ -627,100 +611,79 @@ a {
     justify-content: center;
     align-items: center;
   }
-
   #index #container-def {
     width: 60%;
     height: 45%;
     display: flex;
     flex-direction: column;
   }
-
   #index #container-def h1 {
     margin-top: 0;
     line-height: 60px;
-    
   }
-
   #index #container-def p {
     font-size: 20px;
     line-height: 28px;
     margin-bottom: 1.3rem;
   }
-
   #index #container-def h2 {
     padding-bottom: 0.5rem;
   }
-
   #index #container-def #icon-section {
     width: 20%;
     justify-content: flex-start;
   }
-
   #index #container-def #icon-section li a {
     padding-right: 1rem;
     transition: transform 0.09s ease-out;
   }
-
   #index #container-def #icon-section a:hover {
     transform: scale(1.1) rotate(45deg);
   }
-
   #works-container .container {
     grid-template-columns: 1fr 1fr;
     justify-content: space-evenly;
   }
-
   #works-container .container .work-pic,
   .work-pic-1 {
     width: 95%;
   }
-
   #works-container .container .work-pic-1 {
     margin-left: 30px;
   }
-
   #works-container .container .work-pic:nth-child(1) {
     display: none;
   }
-
   #works-container .container .work-description {
     width: 80%;
     height: auto;
   }
-
   #works-container .container .work-description .description-element {
     width: 78%;
   }
-
   #works-container .container .work-description .description-element .element {
     font-size: 18px;
     line-height: 24px;
     font-weight: normal;
   }
-
   #works-container .container .work-description .description-text {
     font-size: 16px;
     line-height: 24px;
   }
-
   .bullet {
     width: 12px;
   }
-
   #works-container .container .work-description .description-element li:first-child {
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
   }
-
   #works-container .container .work-description #languages-1 {
     width: 45%;
   }
-
   #works-container .container .work-description .languages {
     width: 73%;
   }
-
   #works-container .container .work-description .languages .ruby {
     width: 120px;
     height: 24px;
@@ -732,13 +695,11 @@ a {
     color: #6070ff;
     background: rgb(235 235 255);
   }
-
   #about-container {
     padding: 90px 150px 150px;
     background-image: url(./images/desktop-images/about-desk.png);
     background-size: 100%;
   }
-
   #about-container .about-content-box {
     width: 100%;
     margin-bottom: 10px;
@@ -746,7 +707,6 @@ a {
     display: grid;
     grid-template-columns: 40% 60%;
   }
-
   #about-container .about-content-box #about-inside-left-box {
     width: 100%;
     height: 400px;
@@ -754,50 +714,43 @@ a {
     flex-direction: column;
     justify-content: space-between;
   }
-
   #contact-container {
     background-image: url(./images/desktop-images/contact-desk.png);
     margin: -140px auto;
   }
-
   #contact-items {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
   #description-contact-box {
     width: 40%;
   }
-
   #contact-container #input-contact-box {
     width: 40%;
     margin: auto;
   }
-
   #contact-container .get-touch-btn {
     margin-bottom: 20px;
     align-self: center;
   }
-
-  #HomeIndicatorLight {
-  margin: auto;
-  align-self: center;
-  position: relative;
+  #contact-items hr {
+    border: none;
+    background: #0D151E;
+    border-radius: 10px;
+    width: 134px;
+    height: 5px;
   }
-
   #languages-slider {
     margin: 30px auto;
   }
-
   #box-languages-items {
     margin: 40px 0 -40px;
     width: 65%;
     height: auto;
     display: flex;
   }
-
   .box-languages {
     width: 110px;
     height: 80px;
@@ -808,7 +761,6 @@ a {
     align-items: flex-start;
     justify-content: space-around;
   }
-
   .box-languages .icon-1 {
     width: 40px;
     margin: 0;
