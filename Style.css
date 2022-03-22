@@ -291,6 +291,27 @@ a {
     display: none;
   }
 
+  #index #container-def h2 {
+    color: #7f8cff;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #works-container .container .work-description .description-element li:first-child {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    list-style: none;
+    color: #344563;
+  }
+  
+  #index #container-def #icon-section ul li {
+    list-style: none;
+    display: flex;
+  }
+  
   #works-container .container .work-pic:nth-child(2) {
     display: none;
   }
@@ -467,26 +488,118 @@ a {
   transform: scale(1.3);
 }
 
-#index #container-def h2 {
-  color: #7f8cff;
-  font-size: 18px;
-  line-height: 24px;
-  font-family: "Poppins", sans-serif;
+#contact-container {
+  background-image: url(./images/contact_backward.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 2;
+  margin: -120px auto;
+  padding: 100px 20px 0;
+  height: 112vh;
 }
 
-#works-container .container .work-description .description-element li:first-child {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  list-style: none;
-  color: #344563;
+#description-contact-box {
+    width: 90%;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
-#index #container-def #icon-section ul li {
-  list-style: none;
+#description-contact-box .contact-title-1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#description-contact-box .contact-description-1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin-bottom: 100px;
+  user-select: none;
+  cursor: pointer;
+ }
+
+#contact-container #input-contact-box {
+  height: 400px;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
+
+#contact-container .label {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin: 10px 0 5px;
+}
+
+#contact-container #input-contact-box .input-i {
+  font-family: "Poppins", sans-serif;
+  height: 48px;
+  padding: 10px;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  border: 1px solid #dcd6cf;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+#contact-container #input-contact-box .input-m {
+  font-family: "Poppins", sans-serif;
+  padding: 5px 5px 0;
+  font-size: 15px;
+  line-height: 24px;
+  color: #797878;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  outline: none;
+  letter-spacing: 2px;
+}
+
+#contact-container .get-touch-btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #6070ff;
+  width: 140px;
+  height: 58px;
+  left: 24px;
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 8px;
+  border: none;
+}
+
+#contact-container .get-touch-btn:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgb(64 83 252 / 24%);
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+#contact-container .get-touch-btn:active {
+  background: #2230d2;
+  border: none;
+}
+
+#HomeIndicatorLight {
+  margin: auto;
+  align-self: center;
+  position: relative;
+  }
 
 @media screen and (min-width: 992px) {
   .navbar {
@@ -525,8 +638,7 @@ a {
   #index #container-def h1 {
     margin-top: 0;
     line-height: 60px;
-    animation-name: example;
-    animation-duration: 4s;
+    
   }
 
   #index #container-def p {
@@ -641,6 +753,38 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  #contact-container {
+    background-image: url(./images/desktop-images/contact-desk.png);
+    margin: -140px auto;
+  }
+
+  #contact-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #description-contact-box {
+    width: 40%;
+  }
+
+  #contact-container #input-contact-box {
+    width: 40%;
+    margin: auto;
+  }
+
+  #contact-container .get-touch-btn {
+    margin-bottom: 20px;
+    align-self: center;
+  }
+
+  #HomeIndicatorLight {
+  margin: auto;
+  align-self: center;
+  position: relative;
   }
 
   #languages-slider {
