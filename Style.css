@@ -492,10 +492,12 @@ a {
   background-image: url(./images/contact_backward.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top right;
   z-index: 2;
-  margin: -120px auto;
-  padding: 100px 20px 0;
+  margin: -150px auto;
+  padding: 90px 20px 0;
   height: 100%;
+  border-top-left-radius: 60px;
 }
 
 #description-contact-box {
@@ -515,7 +517,7 @@ a {
   line-height: 52px;
   color: white;
   margin-bottom: 20px;
-  margin-top: 1em;
+  margin-top: 1.5em;
 }
 
 #description-contact-box .contact-description-1 {
@@ -530,10 +532,15 @@ a {
 }
 
 #contact-container #input-contact-box {
-  height: 400px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+#contact-items {
+  width: 100%;
+  height: 780px;
 }
 
 #contact-container .label {
@@ -544,14 +551,14 @@ a {
 
 #contact-container #input-contact-box .input-i {
   font-family: "Poppins", sans-serif;
-  height: 48px;
+  height: 40px;
   padding: 10px;
   font-size: 17px;
   line-height: 20px;
   color: #172b4d;
   border: 1px solid #dcd6cf;
   border-radius: 8px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   outline: none;
 }
 
@@ -559,7 +566,7 @@ a {
   font-family: "Poppins", sans-serif;
   padding: 5px 5px 0;
   font-size: 15px;
-  line-height: 24px;
+  line-height: 20px;
   color: #797878;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
