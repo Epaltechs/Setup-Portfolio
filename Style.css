@@ -495,18 +495,17 @@ a {
   z-index: 2;
   margin: -120px auto;
   padding: 100px 20px 0;
-  height: 112vh;
+  height: 100%;
 }
 
 #description-contact-box {
   width: 90%;
   margin: auto;
-  height: 100px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
 }
 
 #description-contact-box .contact-title-1 {
@@ -516,7 +515,7 @@ a {
   line-height: 52px;
   color: white;
   margin-bottom: 20px;
-  padding-top: 8em;
+  margin-top: 1em;
 }
 
 #description-contact-box .contact-description-1 {
@@ -525,7 +524,7 @@ a {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   user-select: none;
   cursor: pointer;
 }
@@ -535,14 +534,12 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 20px;
-  padding-top: 5em;
 }
 
 #contact-container .label {
   font-family: "Poppins", sans-serif;
   color: white;
-  margin: 10px 0 5px;
+  margin: 5px 0 5px;
 }
 
 #contact-container #input-contact-box .input-i {
@@ -568,6 +565,7 @@ a {
   border-radius: 8px;
   outline: none;
   letter-spacing: 2px;
+  resize: none;
 }
 
 #contact-container .get-touch-btn {
