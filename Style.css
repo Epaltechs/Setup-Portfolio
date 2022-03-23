@@ -506,7 +506,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 #description-contact-box .contact-title-1 {
@@ -516,6 +516,7 @@ a {
   line-height: 52px;
   color: white;
   margin-bottom: 20px;
+  padding-top: 8em;
 }
 
 #description-contact-box .contact-description-1 {
@@ -535,6 +536,7 @@ a {
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 20px;
+  padding-top: 5em;
 }
 
 #contact-container .label {
@@ -772,14 +774,6 @@ a {
   #contact-container .get-touch-btn {
     margin-bottom: 20px;
     align-self: center;
-  }
-
-  #contact-items hr {
-    border: none;
-    background: #0d151e;
-    border-radius: 10px;
-    width: 134px;
-    height: 5px;
   }
 
   #languages-slider {
