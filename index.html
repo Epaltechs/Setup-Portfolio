@@ -65,7 +65,7 @@
                 </ul>
             </div>
         </div>
-    </section>   
+    </section>
      <div class="winUp hidden" id="popup">
             <div class="container windowPopup popup">
                 <div class="pop-header">
@@ -233,10 +233,10 @@
         <section id="about-container">
             <div class="about-content-box">
                 <div id="about-inside-left-box">
-                    <h1 class="about-title">
+                    <h3 class="about-title">
                         About <br />
                         Myself
-                    </h1>
+                    </h3>
                     <p class="about-description">
                         Hello I’m a software developer! I can help you build a product,
                         feature or website. Look through some of my work and experience! If
@@ -303,6 +303,31 @@
                 </div>
             </div>
         </section>
-       </main>
+        <section id="contact-container">
+            <div id="contact-items">
+                <div id="description-contact-box">
+                    <h5 class="contact-title-1">Contact me</h5>
+                    <p class="contact-description-1">
+                        If you have an application you are interested in developing, a
+                        feature that you need built or a project that needs coding. I’d
+                        love to help with it.
+                    </p>
+                </div>
+                <form id="input-contact-box" action="https://formspree.io/f/xpzbqlab" method="post">
+                    <label class="label" for="username"></label>
+                    <input id="username" class="input-i" name="username" type="text" maxlength="30"
+                        placeholder="Emmnanuel Paul" required="required" />
+                    <label class="label" for="email"></label>
+                    <input id="email" class="input-i" name="email" type="email" value="" placeholder="emmapaul247@gmail.com"
+                        required="required" />
+                    <label class="label" id="input-message" for="msg"></label>
+                    <textarea class="input-m" name="msg" id="msg" maxlength="500" cols="20" rows="10"
+                        placeholder="Write your message here" required="required"></textarea>
+                    <button class=" get-touch-btn" type="submit">Get In Touch</button>
+                   </form>
+                 </div>
+            </section>
+      </main>
    </body>
 </html>
+
