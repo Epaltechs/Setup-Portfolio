@@ -672,7 +672,7 @@ a {
   }
 
   @keyframes example {
-    from { color: blue; }
+    from { color: rgb(0, 255, 200); }
     to { color: rgb(140, 0, 255); }
   }
 
