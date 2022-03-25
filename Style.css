@@ -106,6 +106,12 @@ a {
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   margin-top: 150px;
+  animation: example 5s ease-in-out 1;
+}
+
+@keyframes example {
+  from { color: blue; }
+  to { color: rgb(140, 0, 255); }
 }
 
 #index #container-def p {
@@ -646,7 +652,7 @@ a {
     height: 45%;
     display: flex;
     flex-direction: column;
-    animation: def-animation 5s ease-in-out 1;
+    animation: def-animation 2s ease-in-out 1;
   }
 
   @keyframes def-animation {
@@ -661,7 +667,13 @@ a {
   #index #container-def h1 {
     margin-top: 0;
     line-height: 60px;
-  }
+    animation: example 5s ease-in-out 1;
+}
+
+@keyframes example {
+  from { color: blue; }
+  to { color: rgb(140, 0, 255); }
+}
 
   #index #container-def p {
     font-size: 20px;
