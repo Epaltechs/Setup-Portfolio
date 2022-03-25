@@ -11,9 +11,16 @@ Showcasing my web design ability through esctatic web design.
 ​
 ​
 ## Getting Started
-​
-To get a local copy up and running follow these simple example steps.
-​
+
+To get a local copy up and running follow these simple steps:
+
+- copy this link `https://github.com/Epaltechs/Setup-Portfolio.git`.
+- get the directory that you want to clone the repository.
+- open the command prompt in this directory.
+- write `git clone https://github.com/Epaltechs/blog_app.git`.
+- go to the repository folder in your command prompt `cd Setup-Portfolio Mobile Version`
+
+
 ## Authors
 ​
 :bust_in_silhouette: **Author**
