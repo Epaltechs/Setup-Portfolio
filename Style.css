@@ -346,6 +346,8 @@ a {
   box-sizing: border-box;
   border-radius: 8px;
   margin: 50px 0 30px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -636,6 +638,7 @@ a {
     justify-content: center;
     align-items: center;
     height: 110vh;
+    overflow-y: hidden;
   }
 
   #index #container-def {
@@ -643,6 +646,16 @@ a {
     height: 45%;
     display: flex;
     flex-direction: column;
+    animation: def-animation 3s ease-in-out 1;
+  }
+
+  @keyframes def-animation {
+    0%{
+      margin-top: 100%;
+    }
+    100%{
+      margin-top: 0;
+    }
   }
 
   #index #container-def h1 {
