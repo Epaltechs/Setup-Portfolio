@@ -37,7 +37,7 @@ a {
   align-items: center;
   background-color: #fff;
   padding: 0 24px;
-  position: fixed;
+  position: sticky;
   top: 0;
   z-index: 10000;
 }
@@ -45,15 +45,15 @@ a {
 .nav-items {
   display: flex;
   justify-content: space-between;
-  width: 350px;
+  width: 400px;
   list-style: none;
 }
 
 .nav-items li a {
   display: inline-block;
-  padding: 15px;
+  padding: 35px;
   font-size: 16px;
-  line-height: 34px;
+  line-height: 20px;
   color: #fff;
 }
 
@@ -172,6 +172,14 @@ a {
   margin-top: 15px;
 }
 
+#works-container .container .work-description h4 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  font-family: 'Poppins', sans-serif;
+  color: #172b4d;
+}
+
 #works-container .container .description-element {
   width: 90%;
   margin-top: 15px;
@@ -207,6 +215,7 @@ a {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 #works-container .container .work-description .languages .lang {
@@ -301,7 +310,6 @@ a {
   #works-container .container .work-description .description-element li:first-child {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    font-size: 13px;
     line-height: 16px;
     list-style: none;
     color: #344563;
@@ -604,7 +612,8 @@ a {
 
 @media screen and (min-width: 992px) {
   .navbar {
-    padding: 0 210px;
+    margin-top: 1em;
+    margin-left: 50px;
   }
 
   .navbar ul li a {
@@ -627,6 +636,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 110vh;
   }
 
   #index #container-def {
@@ -648,6 +658,10 @@ a {
   }
 
   #index #container-def h2 {
+    color: #7f8cff;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
     padding-bottom: 0.5rem;
   }
 
@@ -684,12 +698,12 @@ a {
   }
 
   #works-container .container .work-description {
-    width: 80%;
+    width: 90%;
     height: auto;
   }
 
   #works-container .container .work-description .description-element {
-    width: 78%;
+    width: 90%;
   }
 
   #works-container .container .work-description .description-element .element {
@@ -714,11 +728,14 @@ a {
   }
 
   #works-container .container .work-description #languages-1 {
-    width: 45%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
   }
 
   #works-container .container .work-description .languages {
-    width: 73%;
+    width: 100%;
   }
 
   #works-container .container .work-description .languages .ruby {
@@ -755,32 +772,6 @@ a {
     justify-content: space-between;
   }
 
-  #contact-container {
-    background-image: url(./images/desktop-images/contact-desk.png);
-    margin: -140px auto;
-  }
-
-  #contact-items {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #description-contact-box {
-    width: 40%;
-  }
-
-  #contact-container #input-contact-box {
-    width: 40%;
-    margin: auto;
-  }
-
-  #contact-container .get-touch-btn {
-    margin-bottom: 20px;
-    align-self: center;
-  }
-
   #languages-slider {
     margin: 30px auto;
   }
@@ -806,5 +797,31 @@ a {
   .box-languages .icon-1 {
     width: 40px;
     margin: 0;
+  }
+
+  #contact-container {
+    background-image: url(./images/desktop-images/contact-desk.png);
+    margin: -140px auto;
+  }
+
+  #contact-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #description-contact-box {
+    width: 40%;
+  }
+
+  #contact-container #input-contact-box {
+    width: 40%;
+    margin: auto;
+  }
+
+  #contact-container .get-touch-btn {
+    margin-bottom: 20px;
+    align-self: center;
   }
 }
