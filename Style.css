@@ -656,10 +656,11 @@ a {
   }
 
   @keyframes def-animation {
-    0%{
+    0% {
       margin-top: 100%;
     }
-    100%{
+
+    100% {
       margin-top: 0;
     }
   }
@@ -668,12 +669,12 @@ a {
     margin-top: 0;
     line-height: 60px;
     animation: example 5s ease-in-out 1;
-}
+  }
 
-@keyframes example {
-  from { color: blue; }
-  to { color: rgb(140, 0, 255); }
-}
+  @keyframes example {
+    from { color: rgb(0, 255, 200); }
+    to { color: rgb(140, 0, 255); }
+  }
 
   #index #container-def p {
     font-size: 20px;
