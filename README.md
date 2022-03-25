@@ -24,7 +24,7 @@ To get a local copy up and running, follow these simple steps:
 ​- Emmnanuel Paul
 - GitHub: [epaltechs.github.io/Setup-Portfolio]
 - LinkedIn: [https://www.linkedin.com/in/emmanuel-paul-a2bab7b4/]
-= Twitter: [http://twitter.com/@emmapaul247].
+- Twitter: [http://twitter.com/@emmapaul247].
 ​
 ## 🤝 Contributing
 
