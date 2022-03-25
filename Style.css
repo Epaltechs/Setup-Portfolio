@@ -646,7 +646,7 @@ a {
     height: 45%;
     display: flex;
     flex-direction: column;
-    animation: def-animation 3s ease-in-out 1;
+    animation: def-animation 5s ease-in-out 1;
   }
 
   @keyframes def-animation {
