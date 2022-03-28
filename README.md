@@ -22,7 +22,7 @@ To get a local copy up and running, follow these simple steps:
 ## Authors
 👤 **Author1**
 ​- Emmnanuel Paul
-- GitHub: [epaltechs.github.io/Setup-Portfolio]
+- GitHub: [https://www.epaltechs.github.io/Setup-Portfolio]
 - LinkedIn: [https://www.linkedin.com/in/emmanuel-paul-a2bab7b4/]
 - Twitter: [http://twitter.com/@emmapaul247].
 ​
