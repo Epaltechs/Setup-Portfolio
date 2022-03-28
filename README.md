@@ -1,4 +1,4 @@
-# Setup-Portfolio Desktop Version Project
+# Emmanuel Paul's GitHub Page
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 ​
 Showcasing my portfolio through esctatic web design project.
@@ -8,7 +8,12 @@ Showcasing my portfolio through esctatic web design project.
 - HTML 
 - CSS
 - Linters
-​
+
+
+## Live Demo
+
+[Live Demo Link]
+(https://epaltechs.github.io/Setup-Portfolio/)
 ​
 ## Getting Started
 To get a local copy up and running, follow these simple steps:
@@ -19,10 +24,11 @@ To get a local copy up and running, follow these simple steps:
 - write `git clone https://github.com/Epaltechs/Setup-Portfolio/tree/Desktop-Version.`
 - go to the repository folder in your command prompt `cd Setup-Portfolio`
 
+
 ## Authors
 👤 **Author1**
 ​- Emmnanuel Paul
-- GitHub: [https://www.epaltechs.github.io/Setup-Portfolio]
+- GitHub: [https:/https://github.com/Epaltechs/Setup-Portfolio]
 - LinkedIn: [https://www.linkedin.com/in/emmanuel-paul-a2bab7b4/]
 - Twitter: [http://twitter.com/@emmapaul247].
 ​
