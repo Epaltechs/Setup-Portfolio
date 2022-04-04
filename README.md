@@ -14,7 +14,7 @@ Showcasing my portfolio through esctatic web design project.
 ## Live Demo
 
 [Live Demo Link]
-(https://epaltechs.github.io/Setup-Portfolio/)
+(https://epaltechs.github.io/Setup-Portfolio/Mobile-Portfolio)
 ​
 ## Getting Started
 To get a local copy up and running, follow these simple steps:
@@ -35,7 +35,7 @@ To get a local copy up and running, follow these simple steps:
 ​
 ## 🤝 Contributing
 
-# Rwubakwanayo Olivier
+### Rwubakwanayo Olivier
 
 Contributions, issues, and feature requests are welcome!
 
