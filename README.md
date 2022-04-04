@@ -1,4 +1,4 @@
-# Emmanuel Paul's GitHub Page
+# Emmanuel Paul's Mobile Portfolio
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 ​
 Showcasing my portfolio through esctatic web design project.
@@ -7,6 +7,7 @@ Showcasing my portfolio through esctatic web design project.
 ​
 - HTML 
 - CSS
+- JS
 - Linters
 
 
@@ -34,6 +35,8 @@ To get a local copy up and running, follow these simple steps:
 ​
 ## 🤝 Contributing
 
+# Rwubakwanayo Olivier
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/Epaltechs/Setup-Portfolio/issues).
@@ -44,7 +47,7 @@ If you like this project you can support just by giving a like.
 Emmanuel Paul to Everyone (10:25)
 
 ## Acknowledgments
-Many thanks to Firdavs Allamurotov for your wonderful support.
+Many thanks to Rwubakwanayo Olivier for your wonderful support.
 
 ## 📝 License
 
