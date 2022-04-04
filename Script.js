@@ -30,8 +30,8 @@ const projects = {
         description:
             'A daily selection of privately personalized reads; no accounts or sign-ups required.',
         techUse: ['html', 'css', 'javaScript'],
-        projectDemo: 'https://mstanley-me.github.io/mobileSkeleton/',
-        projectSource: 'https://github.com/mstanley-me/mobileSkeleton',
+        projectDemo: 'https://epaltechs.github.io/Setup-Portfolio/',
+        projectSource: 'https://epaltechs.github.io/Setup-Portfolio',
     },
 
     id2: {
@@ -44,8 +44,8 @@ const projects = {
         description:
             'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming <br> their friends.',
         techUse: ['html', 'Ruby on rails', 'css', 'javaScript'],
-        projectDemo: 'https://mstanley-me.github.io/mobileSkeleton/',
-        projectSource: 'https://github.com/mstanley-me/mobileSkeleton',
+        projectDemo: 'https://epaltechs.github.io/Setup-Portfolio/',
+        projectSource: 'https://epaltechs.github.io/Setup-Portfolio',
     },
 
     id3: {
@@ -58,8 +58,8 @@ const projects = {
         description:
             'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
         techUse: ['html', 'Ruby on rails', 'css', 'javaScript'],
-        projectDemo: 'https://mstanley-me.github.io/mobileSkeleton/',
-        projectSource: 'https://github.com/mstanley-me/mobileSkeleton',
+        projectDemo: 'https://epaltechs.github.io/Setup-Portfolio/',
+        projectSource: 'https://epaltechs.github.io/Setup-Portfolio',
     },
     id4: {
         
@@ -71,8 +71,8 @@ const projects = {
         description:
             'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
         techUse: ['html', 'Ruby on rails', 'css', 'javaScript'],
-        projectDemo: 'https://mstanley-me.github.io/mobileSkeleton/',
-        projectSource: 'https://github.com/mstanley-me/mobileSkeleton',
+        projectDemo: 'https://epaltechs.github.io/Setup-Portfolio/',
+        projectSource: 'https://epaltechs.github.io/Setup-Portfolio',
     },
 };
 
@@ -195,45 +195,4 @@ changeWindowPopup = function (order) {
   `;
     }
 }
-
-function changeWindowPopup() {
-    popup.classList.add('hidden');
-}
-
-btn_1.addEventListener('click', () => {
-    openWindows();
-    changeWindowPopup(1);
-});
-
-btn_2.addEventListener('click', () => {
-    openWindows();
-    changeWindowPopup(2);
-});
-
-btn_3.addEventListener('click', () => {
-    openWindows();
-    changeWindowPopup(3);
-});
-
-btn_4.addEventListener('click', () => {
-    openWindows();
-    changeWindowPopup(4);
-});
-
-const formValidation = document.querySelector('#input-contact-box');
-const emailInputValidation = document.querySelector('#email');
-const entryTextMessage = document.querySelector('#input-message');
-
-formValidation.addEventListener('submit', (event) => {
-    const strEmailInput = emailInputValidation.value;
-    if (/[A-Z]/.test(strEmailInput)) {
-        entryTextMessage.innerHTML = '*Your email address is not correct, email must be contain only lowercase character';
-        entryTextMessage.style.fontSize = '16px';
-        entryTextMessage.style.fontStyle = 'italic';
-        entryTextMessage.style.color = 'white';
-
-        event.preventDefault();
-
-    }
-});
 
