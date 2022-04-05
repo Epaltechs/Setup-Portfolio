@@ -2,152 +2,135 @@ const navItems = document.querySelector('.nav-items');
 const openMenu = document.querySelector('.openMenu');
 const closeMenu = document.querySelector('.closeMenu');
 
-openMenu.addEventListener('click', show);
-closeMenu.addEventListener('click', close);
-
 function show() {
-    navItems.style.display = 'flex';
-    navItems.style.right = '0';
+  navItems.style.display = 'flex';
+  navItems.style.right = '0';
 }
 
 function close() {
-    navItems.style.right = '100%';
+  navItems.style.right = '100%';
 }
+
+openMenu.addEventListener('click', show);
+closeMenu.addEventListener('click', close);
 
 document.querySelectorAll('.item');
 navItems.addEventListener('click', () => {
-    navItems.style.right = '100%';
-})
+  navItems.style.right = '100%';
+});
 
 const projects = {
-    id1: {
-        
-        name: 'Tonic',
-        pic: 'images/section-work/snapshoot4.png',
-        companyId: 'CANOPY',
-        work: 'Back End Dev',
-        date: 2015,
-        description:
+  id1: {
+    name: 'Tonic',
+    pic: 'images/section-work/snapshoot4.png',
+    companyId: 'CANOPY',
+    work: 'Back End Dev',
+    date: 2015,
+    description:
             'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-        techUse: ['html', 'css', 'javaScript'],
-        projectDemo: 'https://epaltechs.github.io/Setup-Portfolio/',
-        projectSource: 'https://epaltechs.github.io/Setup-Portfolio',
-    },
+    techUse: ['html', 'css', 'javaScript'],
+    projectDemo: 'https://epaltechs.github.io/Setup-Portfolio/',
+    projectSource: 'https://epaltechs.github.io/Setup-Portfolio',
+  },
 
-    id2: {
-        
-        name: 'Multi-Post Stories',
-        pic: 'images/section-work/snapshoot3.png',
-        companyId: 'FACEBOOK',
-        work: 'Full Stack Dev',
-        date: 2015,
-        description:
+  id2: {
+    name: 'Multi-Post Stories',
+    pic: 'images/section-work/snapshoot3.png',
+    companyId: 'FACEBOOK',
+    work: 'Full Stack Dev',
+    date: 2015,
+    description:
             'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming <br> their friends.',
-        techUse: ['html', 'Ruby on rails', 'css', 'javaScript'],
-        projectDemo: 'https://epaltechs.github.io/Setup-Portfolio/',
-        projectSource: 'https://epaltechs.github.io/Setup-Portfolio',
-    },
+    techUse: ['html', 'Ruby on rails', 'css', 'javaScript'],
+    projectDemo: 'https://epaltechs.github.io/Setup-Portfolio/',
+    projectSource: 'https://epaltechs.github.io/Setup-Portfolio',
+  },
 
-    id3: {
-       
-        name: 'Facebook 360',
-        pic: 'images/section-work/snapshoot.png',
-        companyId: 'FACEBOOK',
-        work: 'Full Stack Dev',
-        date: 2015,
-        description:
+  id3: {
+    name: 'Facebook 360',
+    pic: 'images/section-work/snapshoot.png',
+    companyId: 'FACEBOOK',
+    work: 'Full Stack Dev',
+    date: 2015,
+    description:
             'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-        techUse: ['html', 'Ruby on rails', 'css', 'javaScript'],
-        projectDemo: 'https://epaltechs.github.io/Setup-Portfolio/',
-        projectSource: 'https://epaltechs.github.io/Setup-Portfolio',
-    },
-    id4: {
-        
-        name: 'Uber Navigation',
-        pic: 'images/section-work/snapshoot1.png',
-        companyId: 'Uber',
-        work: 'Lead Developer',
-        date: 2015,
-        description:
-            'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-        techUse: ['html', 'Ruby on rails', 'css', 'javaScript'],
-        projectDemo: 'https://epaltechs.github.io/Setup-Portfolio/',
-        projectSource: 'https://epaltechs.github.io/Setup-Portfolio',
-    },
-};
+    techUse: ['html', 'Ruby on rails', 'css', 'javaScript'],
+    projectDemo: 'https://epaltechs.github.io/Setup-Portfolio/',
+    projectSource: 'https://epaltechs.github.io/Setup-Portfolio',
+  },
 
+  id4: {
+    name: 'Uber Navigation',
+    pic: 'images/section-work/snapshoot1.png',
+    companyId: 'Uber',
+    work: 'Lead Developer',
+    date: 2015,
+    description:
+            'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    techUse: ['html', 'Ruby on rails', 'css', 'javaScript'],
+    projectDemo: 'https://epaltechs.github.io/Setup-Portfolio/',
+    projectSource: 'https://epaltechs.github.io/Setup-Portfolio',
+  },
+};
 
 const nameID = document.getElementById('name');
 const imgSrc = document.getElementsByClassName('work-pic');
 const companyIdentity = document.getElementById('companyID');
-const work_title = document.getElementById('workType');
+const workTitle = document.getElementById('workType');
 const documentDate = document.getElementById('date');
 const description = document.getElementById('descriptionTxt');
-const technology = document.getElementById('techUse');
 const btnDemoProjectLink = document.querySelector('.btnDemo');
 const btnSourceProjectLink = document.querySelector('.btnSource');
-const btn_1 = document.querySelector('#firstBtn');
-const btn_2 = document.querySelector('#secondBtn');
-const btn_3 = document.querySelector('#thirdBtn');
-const btn_4 = document.querySelector('#lastBtn');
+const btn1 = document.querySelector('#firstBtn');
+const btn2 = document.querySelector('#secondBtn');
+const btn3 = document.querySelector('#thirdBtn');
+const btn4 = document.querySelector('#lastBtn');
 const windowPopup = document.querySelector('.winUp');
-const openPopupWindow = document.querySelector('.openPopup', );
 const closePopupWindow = document.querySelector('.closePopup');
 const navigationBarClose = document.querySelector('.navbar');
 
-
-
-
 closePopupWindow.addEventListener('click', () => {
-    windowPopup.style.display = 'none';
-    navigationBarClose.style.display = 'flex';
+  windowPopup.style.display = 'none';
+  navigationBarClose.style.display = 'flex';
 });
 
-btn_1.addEventListener('click', () => {
-    windowPopup.style.display = 'flex';
-    navigationBarClose.style.display = 'none';
+btn1.addEventListener('click', () => {
+  windowPopup.style.display = 'flex';
+  navigationBarClose.style.display = 'none';
 });
-btn_2.addEventListener('click', () => {
-    windowPopup.style.display = 'flex';
-    navigationBarClose.style.display = 'none';
+btn2.addEventListener('click', () => {
+  windowPopup.style.display = 'flex';
+  navigationBarClose.style.display = 'none';
 });
-btn_3.addEventListener('click', () => {
-    windowPopup.style.display = 'flex';
-    navigationBarClose.style.display = 'none';
+btn3.addEventListener('click', () => {
+  windowPopup.style.display = 'flex';
+  navigationBarClose.style.display = 'none';
 });
-btn_4.addEventListener('click', () => {
-    windowPopup.style.display = 'flex';
-    navigationBarClose.style.display = 'none';
+btn4.addEventListener('click', () => {
+  windowPopup.style.display = 'flex';
+  navigationBarClose.style.display = 'none';
 });
 
-openWindows = function () {
-    popup.classList.remove('hidden');
+const { projectContent } = projects;
+nameID.innerHTML = projectContent.name;
+imgSrc.src = projectContent.pic;
+companyIdentity.innerHTML = projectContent.companyId;
+workTitle.innerHTML = projectContent.work;
+documentDate.innerHTML = projectContent.date;
+description.innerHTML = projectContent.description;
+const techLength = projectContent.techUse.length;
+
+for (let i = 0; i < techLength; i += 1) {
+  const element = document.createElement('li');
+  element.innerHTML = `${projectContent.techUse[i]}`;
+
+  projects.techUse.appendChild(element);
 }
+btnDemoProjectLink.action = projectContent.btnDemoProjectLink;
+btnSourceProjectLink.action = projectContent.btnSourceProjectLink;
 
-changeWindowPopup = function (order) {
-    technology.innerHTML = '';
-
-    const projectContent = projects[`projectContent${order}`];
-    nameID.innerHTML = projectContent.name;
-    imgSrc.src = projectContent.pic;
-    companyIdentity.innerHTML = projectContent.companyId;
-    work_title.innerHTML = projectContent.work;
-    documentDate.innerHTML = projectContent.date;
-    description.innerHTML = projectContent.description;
-    const techLength = projectContent.techUse.length;
-
-    for (let i = 0; i < techLength; i += 1) {
-        const element = document.createElement('li');
-        element.innerHTML = `${projectContent.techUse[i]}`;
-        techUse.appendChild(element);
-    }
-    btnDemoProjectLink.action = projectContent.btnDemoProjectLink;
-    btnSourceProjectLink.action = projectContent.btnSourceProjectLink;
-
-    openWindows();
-
-    for (let i = 0; i < projects.length; i += 1) {
-        document.querySelector('popup').innerHTML = `
+for (let i = 0; i < projects.length; i += 1) {
+  document.querySelector('popup').innerHTML = `
        
         <div class="container windowPopup popup">
                 <div class="pop-header">
@@ -182,17 +165,15 @@ changeWindowPopup = function (order) {
                         </ul>
                         <div class="bottom-bar"></div>
                         <div class="navigation-links">
-                            <form action="${projectContent[i].projectDemo}" class="btn btnSource">
+                            <button action="${projectContent[i].projectDemo}" class="btn btnSource">
                                 <input class = "btn" type="submit" value="See live" /><i class="fab fa-external-link-alt"></i>
-                            </form>
-                            <form action="${projectContent[i].projectSource}" class="btn btnDemo">
+                            </button>
+                            <button action="${projectContent[i].projectSource}" class="btn btnDemo">
                                 <input class = "btn" type="submit" value="See Source"> <i class="fab fa-github"></i>
-                            </form>
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
   `;
-    }
 }
-
