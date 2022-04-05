@@ -188,12 +188,9 @@
   font-size: 13px;
   line-height: 16px;
 }
-.btnSource{
-}
-.popup-link-icon{
-  display: flex;
 
-     display: flex;
+.popup-link-icon {
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 5px;
@@ -204,7 +201,8 @@
   box-sizing: border-box;
   border-radius: 8px;
 }
-.popup-link-icon input{
+
+.popup-link-icon input {
   outline: none;
   border: none;
   background-color: transparent;
@@ -213,10 +211,12 @@
   font-weight: 500;
   font-size: 12px;
 }
-.popup-link-icon img{
+
+.popup-link-icon img {
   height: 20px;
 }
-.btnSource-icon{
+
+.btnSource-icon {
   font-size: 22px;
 }
 
@@ -260,11 +260,11 @@
   .windowPopup .pop-element p:nth-child(2) {
     display: none;
   }
-  .navigation-links {
 
-  justify-content: flex-start;
-  column-gap: 10px;
-}
+  .navigation-links {
+    justify-content: flex-start;
+    column-gap: 10px;
+  }
 }
 
 @media screen and (min-width: 992px) {
