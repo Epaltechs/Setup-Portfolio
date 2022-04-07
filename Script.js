@@ -137,7 +137,7 @@ function closePopupFunc(status) {
 function worksContainer() {
   const element = projects.map((val, index) => {
     const cards = index % 2 === 0 ? `<div class="container">
-  <img class="work-pic" src="./images/Portoflio_Card/work.png" alt="nature image" />
+  <img class="work-pic" src=${val.pic} alt="nature image" />
   <img class="work-pic" src=${val.pic} alt="landing page view" />
   <div class="work-description">
       <h4>${val.name}</h4>
@@ -161,7 +161,7 @@ function worksContainer() {
   </div>
 </div>`
       : `            <div class="container">
-                <img class="work-pic" src="./images/Portoflio_Card/work1.png" alt="multi-post stories image" />
+                <img class="work-pic" src=${val.pic} alt="multi-post stories image" />
                 <div class="work-description">
                     <h4>${val.name}</h4>
                     <ul class="description-element">
@@ -195,3 +195,20 @@ window.addEventListener('load', () => {
 });
 popupFunc(null);
 closePopupFunc(null);
+
+const formValidation = document.querySelector('#inputcontactbox');
+const emailInputValidation = document.querySelector('#email');
+const entryTextMessage = document.querySelector('#inputmessage');
+
+formValidation.addEventListener('submit', (event) => {
+  const strEmailInput = emailInputValidation.value;
+
+  if (/[A-Z]/.test(strEmailInput)) {
+    entryTextMessage.innerHTML = 'Your form is not sent because the email address is not correct; Email must contain only lowercase character.';
+    entryTextMessage.style.fontSize = '16px';
+    entryTextMessage.style.fontStyle = 'italic';
+    entryTextMessage.style.color = 'yellow';
+
+    event.preventDefault();
+  }
+});
