@@ -205,7 +205,7 @@ formValidation.addEventListener('submit', (event) => {
   const strEmailInput = emailInputValidation.value;
 
   if (/[A-Z]/.test(strEmailInput)) {
-    entryTextMessage.innerHTML = '*Your form is not sent because the email address is not correct, email must contain only lowercase character';
+    entryTextMessage.innerHTML = 'Your form is not sent because the email address is not correct; Email must contain only lowercase character.';
     entryTextMessage.style.fontSize = '16px';
     entryTextMessage.style.fontStyle = 'italic';
     entryTextMessage.style.color = 'yellow';
