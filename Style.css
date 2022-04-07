@@ -134,7 +134,7 @@ a {
   align-items: center;
 }
 
-#works-container {
+#workscontainer {
   min-height: 100vh;
   margin: -50px 0 -70px;
   display: flex;
@@ -143,7 +143,7 @@ a {
   align-items: center;
 }
 
-#works-container .container {
+#workscontainer .container {
   width: 80%;
   margin: 50px auto;
   padding: 20px;
@@ -155,30 +155,30 @@ a {
   border-radius: 24px;
 }
 
-#works-container .container .work-pic {
+#workscontainer .container .work-pic {
   width: 100%;
   transition: all 0.2s ease-in-out;
 }
 
-#works-container .work-pic:hover {
+#workscontainer .work-pic:hover {
   transform: scale(1.05);
 }
 
-#works-container .container .work-pic-1 {
+#workscontainer .container .work-pic-1 {
   transition: all 0.2s ease-in-out;
 }
 
-#works-container .work-pic-1:hover {
+#workscontainer .work-pic-1:hover {
   transform: scale(1.05);
 }
 
-#works-container .container .work-description {
+#workscontainer .container .work-description {
   width: 100%;
   height: auto;
   margin-top: 15px;
 }
 
-#works-container .container .work-description h4 {
+#workscontainer .container .work-description h4 {
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
@@ -186,7 +186,7 @@ a {
   color: #172b4d;
 }
 
-#works-container .container .description-element {
+#workscontainer .container .description-element {
   width: 90%;
   margin-top: 15px;
   display: flex;
@@ -194,7 +194,7 @@ a {
   align-items: center;
 }
 
-#works-container .container .work-description .description-element .element {
+#workscontainer .container .work-description .description-element .element {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 13px;
@@ -207,7 +207,7 @@ a {
   width: 10px;
 }
 
-#works-container .container .work-description .description-text {
+#workscontainer .container .work-description .description-text {
   font-family: "Poppins", sans-serif;
   margin: 20px auto;
   font-weight: normal;
@@ -216,15 +216,27 @@ a {
   color: rgb(52 69 99 / 100%);
 }
 
-#works-container .container .work-description .languages {
+#workscontainer .container .work-description .languages {
   width: 80%;
-  display: flex;
-  justify-content: space-between;
   list-style: none;
-  flex-wrap: wrap;
 }
 
-#works-container .container .work-description .languages .lang {
+.lang {
+  float: left;
+  margin-right: 14px;
+  padding: 0 10px;
+  height: 24px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  color: #6070ff;
+  background: #ebebff;
+  margin-bottom: 10px;
+}
+
+#workscontainer .container .work-description .languages .lang1 {
   width: 50px;
   height: 24px;
   font-family: "Poppins", sans-serif;
@@ -236,19 +248,7 @@ a {
   background: #ebebff;
 }
 
-#works-container .container .work-description .languages .lang1 {
-  width: 40px;
-  height: 24px;
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 8px;
-  color: #6070ff;
-  background: #ebebff;
-}
-
-#works-container .container .work-description .languages .lang2 {
+#workscontainer .container .work-description .languages .lang2 {
   width: 95px;
   height: 24px;
   font-family: "Poppins", sans-serif;
@@ -315,7 +315,7 @@ a {
     font-family: "Poppins", sans-serif;
   }
 
-  #works-container .container .work-description .description-element li:first-child {
+  #workscontainer .container .work-description .description-element li:first-child {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     line-height: 16px;
@@ -328,7 +328,7 @@ a {
     display: flex;
   }
 
-  #works-container .container .work-pic:nth-child(2) {
+  #workscontainer .container .work-pic:nth-child(2) {
     display: none;
   }
 
@@ -706,40 +706,40 @@ a {
     transform: scale(1.1) rotate(45deg);
   }
 
-  #works-container .container {
+  #workscontainer .container {
     grid-template-columns: 1fr 1fr;
     justify-content: space-evenly;
   }
 
-  #works-container .container .work-pic,
+  #workscontainer .container .work-pic,
   .work-pic-1 {
     width: 95%;
   }
 
-  #works-container .container .work-pic-1 {
+  #workscontainer .container .work-pic-1 {
     margin-left: 30px;
   }
 
-  #works-container .container .work-pic:nth-child(1) {
+  #workscontainer .container .work-pic:nth-child(1) {
     display: none;
   }
 
-  #works-container .container .work-description {
+  #workscontainer .container .work-description {
     width: 90%;
     height: auto;
   }
 
-  #works-container .container .work-description .description-element {
+  #workscontainer .container .work-description .description-element {
     width: 90%;
   }
 
-  #works-container .container .work-description .description-element .element {
+  #workscontainer .container .work-description .description-element .element {
     font-size: 18px;
     line-height: 24px;
     font-weight: normal;
   }
 
-  #works-container .container .work-description .description-text {
+  #workscontainer .container .work-description .description-text {
     font-size: 16px;
     line-height: 24px;
   }
@@ -748,24 +748,24 @@ a {
     width: 12px;
   }
 
-  #works-container .container .work-description .description-element li:first-child {
+  #workscontainer .container .work-description .description-element li:first-child {
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
   }
 
-  #works-container .container .work-description #languages-1 {
+  #workscontainer .container .work-description #languages-1 {
     width: 60%;
     display: flex;
     justify-content: space-between;
     list-style: none;
   }
 
-  #works-container .container .work-description .languages {
+  #workscontainer .container .work-description .languages {
     width: 100%;
   }
 
-  #works-container .container .work-description .languages .ruby {
+  #workscontainer .container .work-description .languages .ruby {
     width: 120px;
     height: 24px;
     font-family: "Poppins", sans-serif;

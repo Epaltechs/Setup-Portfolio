@@ -108,14 +108,13 @@
 }
 
 .windowPopup .pop-element .languages {
-  width: 60%;
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
+  width: 100%;
 }
 
 .windowPopup .pop-element .languages .lang {
-  width: 50px;
+  padding: 0 10px;
+  float: left;
+  margin-right: 10px;
   height: 24px;
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -251,10 +250,6 @@
 @media screen and (max-width: 991px) {
   .windowPopup .work-pic:nth-child(2) {
     display: none;
-  }
-
-  .windowPopup .pop-element .languages {
-    width: 68%;
   }
 
   .windowPopup .pop-element p:nth-child(2) {
