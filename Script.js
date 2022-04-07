@@ -206,7 +206,16 @@ function storeData(value) {
   localStorage.setItem('Userdata', JSON.stringify(value));
 }
 
-
+function getData() {
+  const retrieveData = localStorage.getItem('Userdata');
+  const newData = JSON.parse(retrieveData);
+  emailInputValidation.value = newData.strEmailInput;
+  entryTextMessage.value = newData.strTextmessage;
+  entryTexUserName.value = newData.strTextUserName;
+}
+window.addEventListener('load', () => {
+  getData();
+});
 
 formValidation.addEventListener('submit', (event) => {
   const strEmailInput = emailInputValidation.value;
