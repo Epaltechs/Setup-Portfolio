@@ -137,7 +137,7 @@ function closePopupFunc(status) {
 function worksContainer() {
   const element = projects.map((val, index) => {
     const cards = index % 2 === 0 ? `<div class="container">
-  <img class="work-pic" src="./images/Portoflio_Card/work.png" alt="nature image" />
+  <img class="work-pic" src=${val.pic} alt="nature image" />
   <img class="work-pic" src=${val.pic} alt="landing page view" />
   <div class="work-description">
       <h4>${val.name}</h4>
@@ -161,7 +161,7 @@ function worksContainer() {
   </div>
 </div>`
       : `            <div class="container">
-                <img class="work-pic" src="./images/Portoflio_Card/work1.png" alt="multi-post stories image" />
+                <img class="work-pic" src=${val.pic} alt="multi-post stories image" />
                 <div class="work-description">
                     <h4>${val.name}</h4>
                     <ul class="description-element">
