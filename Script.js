@@ -123,6 +123,7 @@ function popupFunc(id) {
                     </div>
                 </div>
             </div>`;
+
   windowPopup.style.display = 'flex';
   navigationBarClose.style.display = 'none';
   document.body.style.overflow = 'hidden';
@@ -198,10 +199,21 @@ closePopupFunc(null);
 
 const formValidation = document.querySelector('#inputcontactbox');
 const emailInputValidation = document.querySelector('#email');
-const entryTextMessage = document.querySelector('#inputmessage');
+const entryTextMessage = document.querySelector('#msg');
+const entryTexUserName = document.querySelector('#username');
+
+function storeData(value) {
+  localStorage.setItem('Userdata', JSON.stringify(value));
+}
+
+
 
 formValidation.addEventListener('submit', (event) => {
   const strEmailInput = emailInputValidation.value;
+  const strTextmessage = entryTextMessage.value;
+  const strTextUserName = entryTexUserName.value;
+
+  storeData({ strEmailInput, strTextmessage, strTextUserName });
 
   if (/[A-Z]/.test(strEmailInput)) {
     entryTextMessage.innerHTML = 'Your form is not sent because the email address is not correct; Email must contain only lowercase character.';
