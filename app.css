@@ -58,6 +58,7 @@
 
 .windowPopup .work-pic {
   width: 100%;
+  height: 50%;
 }
 
 .windowPopup .work-pic:hover {
@@ -99,7 +100,7 @@
 .windowPopup .pop-element .description-text {
   font-family: "Poppins", sans-serif;
   text-align: start;
-  margin: 20px auto;
+  margin: 5px auto;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
@@ -107,14 +108,13 @@
 }
 
 .windowPopup .pop-element .languages {
-  width: 60%;
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
+  width: 100%;
 }
 
 .windowPopup .pop-element .languages .lang {
-  width: 50px;
+  padding: 0 10px;
+  float: left;
+  margin-right: 10px;
   height: 24px;
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -150,7 +150,7 @@
 }
 
 .windowPopup .pop-element .bottom-bar {
-  margin: 20px 0 10px;
+  margin: 5px 0 5px;
   width: 100%;
   height: 1px;
   background: #ebecf0;
@@ -188,6 +188,37 @@
   line-height: 16px;
 }
 
+.popup-link-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+  height: 48px;
+  line-height: 24px;
+  background: #fff;
+  border: 2px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.popup-link-icon input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  color: #396df2;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.popup-link-icon img {
+  height: 20px;
+}
+
+.btnSource-icon {
+  font-size: 22px;
+}
+
 .btn {
   display: flex;
   justify-content: center;
@@ -221,12 +252,13 @@
     display: none;
   }
 
-  .windowPopup .pop-element .languages {
-    width: 68%;
-  }
-
   .windowPopup .pop-element p:nth-child(2) {
     display: none;
+  }
+
+  .navigation-links {
+    justify-content: flex-start;
+    column-gap: 10px;
   }
 }
 
@@ -273,12 +305,8 @@
     width: 99%;
   }
 
-  .windowPopup .pop-element p:first-child {
-    display: none;
-  }
-
   .pop-description-element {
-    width: 45% !important;
+    width: 45%;
   }
 
   .windowPopup .pop-element .languages {

@@ -1,4 +1,4 @@
-# Emmanuel Paul's Mobile Portfolio
+# Emmanuel's Portfolio
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 ​
 Showcasing my portfolio through esctatic web design project.
@@ -28,14 +28,14 @@ To get a local copy up and running, follow these simple steps:
 
 ## Authors
 👤 **Author1**
-​- Emmnanuel Paul
+## Emmnanuel Paul
 - GitHub: [https:/https://github.com/Epaltechs/Setup-Portfolio]
 - LinkedIn: [https://www.linkedin.com/in/emmanuel-paul-a2bab7b4/]
 - Twitter: [http://twitter.com/@emmapaul247].
 ​
-## 🤝 Contributing
+## 🤝 Contributor
 
-### Rwubakwanayo Olivier
+#### Rwubakwanayo Olivier
 
 Contributions, issues, and feature requests are welcome!
 
