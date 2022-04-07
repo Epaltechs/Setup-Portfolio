@@ -195,3 +195,21 @@ window.addEventListener('load', () => {
 });
 popupFunc(null);
 closePopupFunc(null);
+
+const formValidation = document.querySelector('#inputcontactbox');
+const emailInputValidation = document.querySelector('#email');
+const entryTextMessage = document.querySelector('#inputmessage');
+
+formValidation.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const strEmailInput = emailInputValidation.value;
+ 
+  if (/[A-Z]/.test(strEmailInput)) {
+    entryTextMessage.innerHTML = '*Your form is not sent because the email address is not correct, email must contain only lowercase character';
+    entryTextMessage.style.fontSize = '16px';
+    entryTextMessage.style.fontStyle = 'italic';
+    entryTextMessage.style.color = 'white';
+
+    event.preventDefault();
+  }
+});
