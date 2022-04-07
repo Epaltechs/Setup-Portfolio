@@ -201,7 +201,6 @@ const emailInputValidation = document.querySelector('#email');
 const entryTextMessage = document.querySelector('#inputmessage');
 
 formValidation.addEventListener('submit', (event) => {
-  event.preventDefault();
   const strEmailInput = emailInputValidation.value;
 
   if (/[A-Z]/.test(strEmailInput)) {
