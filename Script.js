@@ -194,6 +194,7 @@ window.addEventListener('load', () => {
   mainContainer.innerHTML = worksContainer();
   return mainContainer;
 });
+
 popupFunc(null);
 closePopupFunc(null);
 
@@ -213,6 +214,7 @@ function getData() {
   entryTextMessage.value = newData.strTextmessage;
   entryTexUserName.value = newData.strTextUserName;
 }
+
 window.addEventListener('load', () => {
   getData();
 });
