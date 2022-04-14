@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="./Style.css" />
     <link rel="stylesheet" href="./app.css">
+    <script defer src="./Script.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-90K7L4LZ2P"></script>
     <title>Emmanuel's Portfolio</title>
 </head>
 
@@ -20,9 +22,9 @@
                 </div>
                 <div class="openMenu"><i class="fa fa-bars"></i></div>
                 <ul class="nav-items">
-                    <li class="portfolio item"><a href="#works-container" class="link">Portfolio</a></li>
+                    <li class="portfolio item"><a href="#workscontainer" class="link">Portfolio</a></li>
                     <li class="about item"><a href="#about-container" class="link">About</a></li>
-                    <li class="contact item"><a href="#contact-container" class="link">Contact</a></li>
+                    <li class="contact item"><a href="#contactcontainer" class="link">Contact</a></li>
                     <li class="closeMenu"><i class="fa fa-times"></i></li>
                 </ul>
             </nav>
@@ -33,7 +35,9 @@
                     I'm Emmanuel <br /> Glad to see you!
                 </h1>
                 <p>
-                    I’m a software developer! I can help you build a product, feature or website Look through some of my work and experience. If you like what you see and have a project you need coded, don’t hesitate to contact me.
+                    I’m a software developer! I can help you build a product, feature or website.
+                    Look through some of my work and experience.
+                    If you like what you see and have a project you need coded, don’t hesitate to contact me.
                 </p>
                 <br />
 
@@ -59,49 +63,8 @@
                 </div>
             </div>
         </section>
-        <div class="winUp hidden" id="popup">
-            <div class="container windowPopup popup">
-                <div class="pop-header">
-                    <h4 class="h-4">Tonic</h4>
-                    <span class="closePopup"><i class="fa fa-times"></i></span>
-                    <ul class="pop-description-element">
-                        <li class="element" id="companyID">CANOPY</li>
-                        <li class="element">
-                            <img class="bullet" src="./images/bullet.png" alt="bullet" />
-                        </li>
-                        <li class="element" id="workType">Back End Dev</li>
-                        <li class="element">
-                            <img class="bullet" src="./images/bullet.png" alt="bullet" />
-                        </li>
-                        <li class="element" id="date">2015</li>
-                    </ul>
-                </div>
-                <img class="work-pic" src="./images/desktop-images/img1.png" alt="landing page view" />
-                <img class="work-pic pop-img" src="./images/Portoflio_Card/work.png" alt="nature image" />
-                <div class="pop-element">
-                    <p class="description-text descriptionTxt">
-                    </p>
-                    <div class="pop-items">
-                        <ul class="languages">
-
-                            <li class="lang">html</li>
-
-                            <li class="lang1">css</li>
-
-                            <li class="lang2">javaScript</li>
-                        </ul>
-                        <div class="bottom-bar"></div>
-                        <div class="navigation-links">
-                            <form action="https://github.com/Epaltechs/Setup-Portfolio" class="btnSource">
-                                <input class="btn" type="submit" value="See live" /><i class="fab fas-external-link-alt"></i>
-                            </form>
-                            <form action="https://github.com/Epaltechs/Portfolio-Mobile" class="btnDemo">
-                                <input class="btn" type="submit" value="See Source"> <i class="fab fas-github"></i>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="winUp hidden" id="popup"></div>
+        <div id="workscontainer">
         </div>
         <section id="works-container">
             <div class="container">
@@ -282,26 +245,25 @@
                 </div>
             </div>
         </section>
-        <section id="contact-container">
-            <div id="contact-items">
+        <section id="contactcontainer">
+            <div id="contactitems">
                 <div id="description-contact-box">
                     <h5 class="contact-title-1">Contact me</h5>
                     <p class="contact-description-1">
                         If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it.
                     </p>
                 </div>
-                <form id="input-contact-box" action="https://formspree.io/f/xpzbqlab" method="post">
+                <form id="inputcontactbox" action="https://formspree.io/f/xzboanag" method="post">
                     <label class="label" for="username"></label>
-                    <input id="username" class="input-i" name="username" type="text" maxlength="30" placeholder="Full Name" required="required" />
+                    <input id="username" class="inputi" name="username" type="text" maxlength="30" placeholder="Full Name" required="required" />
                     <label class="label" for="email"></label>
-                    <input id="email" class="input-i" name="email" type="email" placeholder="email address" required="required" />
-                    <label class="label" id="input-message" for="msg"></label>
-                    <textarea class="input-m" name="msg" id="msg" maxlength="500" cols="20" rows="10" placeholder="Write your message here" required="required"></textarea>
+                    <input id="email" class="inputi" name="email" type="email" placeholder="email address" required="required" />
+                    <textarea class="inputm" name="msg" id="msg" maxlength="500" cols="20" rows="10" placeholder="Write your message here" required="required"></textarea>
                     <button class=" get-touch-btn" type="submit">Get In Touch</button>
+                    <label class="label" id="inputmessage" for="msg"></label>
                 </form>
             </div>
         </section>
     </main>
 </body>
-
 </html>
