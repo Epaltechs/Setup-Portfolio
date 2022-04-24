@@ -674,9 +674,10 @@ a {
   }
 
   @keyframes example {
-    from { color: rgb(0, 255, 200); }
+    from { color: rgb(255, 0, 140); }
     to { color: rgb(140, 0, 255); }
   }
+  
 
   #index #container-def p {
     font-size: 20px;
