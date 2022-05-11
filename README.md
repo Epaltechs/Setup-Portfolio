@@ -3,7 +3,7 @@
 ​
 Showcasing my portfolio through esctatic web design project.
 
-![](screenshot.png)
+![](Screenshot.png)
 
 ## Built With
 ​
