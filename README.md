@@ -3,6 +3,8 @@
 ​
 Showcasing my portfolio through esctatic web design project.
 
+![](screenshot.png)
+
 ## Built With
 ​
 - HTML 
@@ -14,7 +16,7 @@ Showcasing my portfolio through esctatic web design project.
 ## Live Demo
 
 [Live Demo Link]
-(https://epaltechs.github.io/Setup-Portfolio/Mobile-Portfolio)
+(https://epaltechs.github.io/Setup-Portfolio/)
 ​
 ## Getting Started
 To get a local copy up and running, follow these simple steps:
@@ -26,8 +28,7 @@ To get a local copy up and running, follow these simple steps:
 - go to the repository folder in your command prompt `cd Setup-Portfolio`
 
 
-## Authors
-👤 **Author1**
+👤 **Author**
 ## Emmnanuel Paul
 - GitHub: [https:/https://github.com/Epaltechs/Setup-Portfolio]
 - LinkedIn: [https://www.linkedin.com/in/emmanuel-paul-a2bab7b4/]
