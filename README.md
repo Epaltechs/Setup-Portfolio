@@ -1,7 +1,7 @@
 # Emmanuel's Portfolio
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 ​
-Showcasing my portfolio through esctatic web design project.
+This repository is where I showcase my portfolio through ecstatic web design.
 
 ![](Screenshot.png)
 
