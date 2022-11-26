@@ -1,7 +1,9 @@
 # Emmanuel's Portfolio
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 ​
-Showcasing my portfolio through esctatic web design project.
+This repository is where I showcase my portfolio through ecstatic web design.
+
+![](Screenshot.png)
 
 ## Built With
 ​
@@ -14,7 +16,7 @@ Showcasing my portfolio through esctatic web design project.
 ## Live Demo
 
 [Live Demo Link]
-(https://epaltechs.github.io/Setup-Portfolio/Mobile-Portfolio)
+(https://epaltechs.github.io/Setup-Portfolio/)
 ​
 ## Getting Started
 To get a local copy up and running, follow these simple steps:
@@ -26,8 +28,8 @@ To get a local copy up and running, follow these simple steps:
 - go to the repository folder in your command prompt `cd Setup-Portfolio`
 
 
-## 👤Author
-### Emmnanuel Paul
+👤 **Author**
+## Emmnanuel Paul
 - GitHub: [https:/https://github.com/Epaltechs/Setup-Portfolio]
 - LinkedIn: [https://www.linkedin.com/in/emmanuel-paul-a2bab7b4/]
 - Twitter: [http://twitter.com/@emmapaul247].
