@@ -56,7 +56,7 @@ const projects = [
     description: 'This Budget App is a mobile web application designed to help users spend money responsibly, as well as on which category. It would help you to be reasonable in making financial decisions.',
     techUse: ['Ruby', 'Ruby on rails', 'PostgreSQL', 'Bootstrap'],
     projectDemo: 'https://epal-budget-app.herokuapp.com/',
-    projectSource: 'https://github.com/Epaltechs/budget-app',    
+    projectSource: 'https://github.com/Epaltechs/budget-app',
   },
 
   {
