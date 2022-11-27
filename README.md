@@ -3,11 +3,11 @@
 ​
 This repository is where I showcase my portfolio through ecstatic web design.
 
-![](Screenshot.png)
+![](screenshot.png)
 
 ## Built With
 ​
-- HTML 
+- HTML
 - CSS
 - JS
 - Linters
@@ -16,7 +16,7 @@ This repository is where I showcase my portfolio through ecstatic web design.
 ## Live Demo
 
 [Live Demo Link]
-(https://epaltechs.github.io/Setup-Portfolio/)
+(https://epal-portfolio-setup.netlify.app/)
 ​
 ## Getting Started
 To get a local copy up and running, follow these simple steps:
@@ -29,10 +29,13 @@ To get a local copy up and running, follow these simple steps:
 
 
 👤 **Author**
+
 ## Emmnanuel Paul
-- GitHub: [https:/https://github.com/Epaltechs/Setup-Portfolio]
-- LinkedIn: [https://www.linkedin.com/in/emmanuel-paul-a2bab7b4/]
-- Twitter: [http://twitter.com/@emmapaul247].
+
+- GitHub: (https://github.com/Epaltechs)
+- Twitter: [https://twitter.com/@emmapaul247]
+- LinkedIn: [https://www.linkedin.com/in/emmanuel-s-paul]
+- AngeList: [https://angel.co/u/emmanuel-s-paul]
 ​
 ## 🤝 Contributor
 

@@ -22,54 +22,67 @@ navItems.addEventListener('click', () => {
 const projects = [
   {
     id: 1,
-    name: 'Tonic',
-    pic: './images/desktop-images/img1.png',
-    companyId: 'CANOPY',
-    work: 'Back End Dev',
-    date: 2015,
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    techUse: ['html', 'css', 'javaScript'],
-    projectDemo: 'https://epaltechs.github.io/Setup-Portfolio/',
-    projectSource: 'https://github.com/Epaltechs/Setup-Portfolio',
+    name: 'Weather Metrics App',
+    pic: './images/desktop-images/Weather-Demo.gif',
+    companyId: 'WEATHER UPDATE',
+    work: 'Front End Developer',
+    date: 2022,
+    description: 'This weather metrics app uses the weather updates from Open Weather API to display weather updates of different capital cities in the continent of Africa.',
+    techUse: ['HTML', 'CSS', 'JavaScript', 'React'],
+    projectDemo: 'https://my-weather-metrics-app.netlify.app/',
+    projectSource: 'https://github.com/Epaltechs/weather-metrics',
   },
 
   {
     id: 2,
-    name: 'Multi-Post Stories',
-    pic: './images/desktop-images/img2.png',
-    companyId: 'FACEBOOK',
-    work: 'Full Stack Dev',
-    date: 2015,
-    description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming <br> their friends.',
-    techUse: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    projectDemo: 'https://epaltechs.github.io/Setup-Portfolio/',
-    projectSource: 'https://github.com/Epaltechs/Setup-Portfolio',
+    name: 'Motorbike Booking App',
+    pic: './images/desktop-images/motorbike.png',
+    companyId: 'BOOKING',
+    work: 'Full Stack Developer',
+    date: 2022,
+    description: 'This application serves as a user interface for the backend API and users can create, delete, as well as add reservations for Motorbikes.',
+    techUse: ['HTML', 'CSS', 'JavaScript', 'React', 'Ruby on rails', 'PostgreSQL', 'Bootstrap'],
+    projectDemo: 'https://https://motorbike-booking.netlify.app/',
+    projectSource: 'https://github.com/Epaltechs/motorbike_booking_frontend',
   },
 
   {
     id: 3,
-    name: 'Facebook 360',
-    pic: './images/desktop-images/img3.png',
-    companyId: 'FACEBOOK',
-    work: 'Full Stack Dev',
-    date: 2015,
-    description: 'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    techUse: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    projectDemo: 'https://epaltechs.github.io/Setup-Portfolio/',
-    projectSource: 'https://github.com/Epaltechs/Setup-Portfolio',
+    name: 'Budget App',
+    pic: './images/desktop-images/budget-sample.png',
+    companyId: 'TRANSACTION',
+    work: 'Full Stack Developer',
+    date: 2022,
+    description: 'This Budget App is a mobile web application designed to help users spend money responsibly, as well as on which category. It would help you to be reasonable in making financial decisions.',
+    techUse: ['Ruby', 'Ruby on rails', 'PostgreSQL', 'Bootstrap'],
+    projectDemo: 'https://epal-budget-app.herokuapp.com/',
+    projectSource: 'https://github.com/Epaltechs/budget-app',
   },
 
   {
     id: 4,
-    name: 'Uber Navigation',
-    pic: './images/desktop-images/img4.png',
-    companyId: 'Uber',
-    work: 'Lead Developer',
-    date: 2015,
-    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    techUse: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    projectDemo: 'https://epaltechs.github.io/Setup-Portfolio/',
-    projectSource: 'https://github.com/Epaltechs/Setup-Portfolio',
+    name: 'Bookstore App',
+    pic: './images/desktop-images/Bookstore-screenshot.png',
+    companyId: 'LIBRARY',
+    work: 'Front End Developer',
+    date: 2022,
+    description: 'This Bookstore is an app that allows you to display a list of books, add a book, or remove a selected book from the list.',
+    techUse: ['HTML', 'CSS', 'JavaScript', 'React', 'Bootstrap'],
+    projectDemo: 'https://epal-bookstore.netlify.app/',
+    projectSource: 'https://github.com/Epaltechs/Bookstore',
+  },
+
+  {
+    id: 5,
+    name: 'Blog App',
+    pic: './images/desktop-images/Blog-App.png',
+    companyId: 'BLOGGER',
+    work: 'Back End Developer',
+    date: 2022,
+    description: 'This is a blog website that implements the MVC functionality and CRUD. In effect, it has a clear path from the browser to the routes file, and to the Controller action.',
+    techUse: ['Ruby', 'Ruby on rails', 'PostgreSQL', 'Bootstrap'],
+    projectDemo: 'https://epal-blog-app.herokuapp.com/',
+    projectSource: 'https://github.com/Epaltechs/blog-app',
   },
 ];
 const mainContainer = document.getElementById('workscontainer');
@@ -193,26 +206,15 @@ window.addEventListener('load', () => {
   mainContainer.innerHTML = worksContainer();
   return mainContainer;
 });
+
 popupFunc(null);
 closePopupFunc(null);
 
 const formValidation = document.querySelector('#inputcontactbox');
 const emailInputValidation = document.querySelector('#email');
-const entryTextMessage = document.querySelector('#inputmessage');
+
+const entryTextMessage = document.querySelector('#msg');
 const entryTexUserName = document.querySelector('#username');
-
-formValidation.addEventListener('submit', (event) => {
-  const strEmailInput = emailInputValidation.value;
-
-  if (/[A-Z]/.test(strEmailInput)) {
-    entryTextMessage.innerHTML = 'Your form is not sent because the email address is not correct; Email must contain only lowercase character.';
-    entryTextMessage.style.fontSize = '16px';
-    entryTextMessage.style.fontStyle = 'italic';
-    entryTextMessage.style.color = 'yellow';
-
-    event.preventDefault();
-  }
-});
 
 function storeData(value) {
   localStorage.setItem('Userdata', JSON.stringify(value));
