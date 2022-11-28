@@ -14,8 +14,7 @@ My personal portfolio that showcases few of my projects and web design capabilit
 
 ## Live Demo
 
-[Live Demo Link]
-(https://epal-portfolio-setup.netlify.app/)
+[Live Demo Link](https://epal-portfolio-setup.netlify.app/)
 ​
 ## Getting Started
 To get a local copy up and running, follow these simple steps:
