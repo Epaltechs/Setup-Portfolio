@@ -41,8 +41,8 @@ const projects = [
     work: 'Full Stack Developer',
     date: 2022,
     description: 'This application serves as a user interface for the backend API and users can create, delete, as well as add reservations for Motorbikes.',
-    techUse: ['HTML', 'CSS', 'JavaScript', 'React', 'Ruby on rails', 'PostgreSQL', 'Bootstrap'],
-    projectDemo: 'https://https://motorbike-booking.netlify.app/',
+    techUse: ['HTML', 'CSS', 'PSQL', 'React', 'Rails', 'JS'],
+    projectDemo: 'https://motorbike-booking.netlify.app/',
     projectSource: 'https://github.com/Epaltechs/motorbike_booking_frontend',
   },
 
@@ -54,7 +54,7 @@ const projects = [
     work: 'Full Stack Developer',
     date: 2022,
     description: 'This Budget App is a mobile web application designed to help users spend money responsibly, as well as on which category. It would help you to be reasonable in making financial decisions.',
-    techUse: ['Ruby', 'Ruby on rails', 'PostgreSQL', 'Bootstrap'],
+    techUse: ['Ruby', 'Rails', 'PSQL', 'Bootstrap'],
     projectDemo: 'https://epal-budget-app.herokuapp.com/',
     projectSource: 'https://github.com/Epaltechs/budget-app',
   },
@@ -67,7 +67,7 @@ const projects = [
     work: 'Front End Developer',
     date: 2022,
     description: 'This Bookstore is an app that allows you to display a list of books, add a book, or remove a selected book from the list.',
-    techUse: ['HTML', 'CSS', 'JavaScript', 'React', 'Bootstrap'],
+    techUse: ['HTML', 'CSS', 'JS', 'React', 'Bootstrap'],
     projectDemo: 'https://epal-bookstore.netlify.app/',
     projectSource: 'https://github.com/Epaltechs/Bookstore',
   },
@@ -80,11 +80,12 @@ const projects = [
     work: 'Back End Developer',
     date: 2022,
     description: 'This is a blog website that implements the MVC functionality and CRUD. In effect, it has a clear path from the browser to the routes file, and to the Controller action.',
-    techUse: ['Ruby', 'Ruby on rails', 'PostgreSQL', 'Bootstrap'],
+    techUse: ['Ruby', 'Rails', 'PSQL', 'Bootstrap'],
     projectDemo: 'https://epal-blog-app.herokuapp.com/',
     projectSource: 'https://github.com/Epaltechs/blog-app',
   },
 ];
+
 const mainContainer = document.getElementById('workscontainer');
 const popup = document.getElementById('popup');
 const windowPopup = document.querySelector('.winUp');
